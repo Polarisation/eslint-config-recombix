@@ -123,9 +123,7 @@ module.exports = {
       'props': false,
     }],
     'no-path-concat': 2,
-    'no-plusplus': [1, {
-      'allowForLoopAfterthoughts': true,
-    }],
+    'no-plusplus': 0,
     'no-process-exit': 2,
     'no-return-assign': 0,
     'no-shadow': [2, {
