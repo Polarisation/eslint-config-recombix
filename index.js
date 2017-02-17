@@ -107,7 +107,9 @@ module.exports = {
     }],
     'newline-after-var': [2, 'always'],
     'no-cond-assign': [2, 'except-parens'],
-    'no-confusing-arrow': 2,
+    'no-confusing-arrow': [2, {
+			'allowParens': true,
+		}],
     'no-console': 1,
     'no-continue': 0,
     'no-else-return': 0,
@@ -176,7 +178,7 @@ module.exports = {
 		/*
 		 * eslint-plugin-promise
 		 */
-		 'promise/always-return': 2,
+		 'promise/always-return': 0,
 		 'promise/no-return-wrap': 1,
 		 'promise/param-names': 2,
 		 'promise/catch-or-return': 2,
