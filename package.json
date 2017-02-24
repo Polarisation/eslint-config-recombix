@@ -13,8 +13,8 @@
     "quality",
     "tidy",
     "es6",
-		"es7",
-		"es8",
+    "es7",
+    "es8",
     "es2015",
     "es2016",
     "es2017"
@@ -23,11 +23,11 @@
   "preferGlobal": "true",
   "author": "Josh Cole <hello@joshuacole.me> (https://www.settled.co.uk)",
   "peerDependencies": {
-    "eslint": "^3.15.0",
-    "eslint-plugin-filenames": "^1.1.0",
-    "eslint-plugin-json": "^1.2.0",
-    "eslint-plugin-node": "^4.0.1",
-    "eslint-plugin-promise": "^3.4.2"
+    "eslint": "^3",
+    "eslint-plugin-filenames": "^1",
+    "eslint-plugin-json": "^1",
+    "eslint-plugin-node": "^4",
+    "eslint-plugin-promise": "^3"
   },
   "license": "MIT"
 }
