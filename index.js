@@ -69,7 +69,7 @@ module.exports = {
     'handle-callback-err': [2, '^err'],
     'id-length': [1, {
       'min': 3,
-      'max': 35,
+      'max': 40,
     }],
     'indent': ['error', 'tab', {
       'SwitchCase': 1,
