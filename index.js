@@ -41,7 +41,7 @@ module.exports = {
 		/*
 		 * ESLint Core Rules
 		 */
-		'no-await-in-loop': 2,
+		'no-await-in-loop': 1,
 		'no-useless-concat': 2,
 		'prefer-template': 2,
 		'quotes': [2, 'backtick', {
@@ -105,7 +105,7 @@ module.exports = {
       'capIsNew': true,
       'capIsNewExceptions': ['Router'],
     }],
-    'newline-after-var': [2, 'always'],
+    'newline-after-var': 0,
     'no-cond-assign': [2, 'except-parens'],
     'no-confusing-arrow': [2, {
 			'allowParens': true,
