@@ -165,7 +165,7 @@ module.exports = {
 		/*
 		 * eslint-plugin-filenames
 		 */
-		 'filenames/match-regex': 2,  // Filenames must be in 'camelCase'.
+		 'filenames/match-regex': [2, /^(?:(?:[a-z0-9]+)(?:[A-Z][a-z0-9]+)*)(?:\.(?:(?:[a-z0-9]+)(?:[A-Z][a-z0-9]+)*))*$/g],  // Either camcelCase or dot.case.
 		 'filenames/no-index': 2,
 
 		 /*
