@@ -35,6 +35,7 @@
     "eslint-config-vue": "latest",
     "eslint-plugin-disable": "latest",
     "eslint-plugin-filenames": "latest",
+    "eslint-plugin-html": "latest",
     "eslint-plugin-json": "latest",
     "eslint-plugin-node": "latest",
     "eslint-plugin-promise": "latest",

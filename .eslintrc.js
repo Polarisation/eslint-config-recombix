@@ -32,6 +32,7 @@ module.exports = {
 
 	plugins: [
 		'disable',
+		'html',
 		'json',
     'filenames',
 		'node',
