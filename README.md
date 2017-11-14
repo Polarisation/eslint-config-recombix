@@ -13,6 +13,7 @@ Add the following development dependencies into your project's package.json:
 "devDependencies": {
 	"eslint": "latest",
 	"eslint-config-recombix": "latest",
+	"eslint-config-vue": "latest",
 	"eslint-plugin-disable": "latest",
 	"eslint-plugin-filenames": "latest",
 	"eslint-plugin-json": "latest",
