@@ -16,6 +16,7 @@ Add the following development dependencies into your project's package.json:
 	"eslint-config-vue": "latest",
 	"eslint-plugin-disable": "latest",
 	"eslint-plugin-filenames": "latest",
+	"eslint-plugin-html": "latest",
 	"eslint-plugin-json": "latest",
 	"eslint-plugin-node": "latest",
 	"eslint-plugin-promise": "latest",
