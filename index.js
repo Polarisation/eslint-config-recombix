@@ -7,7 +7,7 @@ module.exports = {
 	extends: [
 		'eslint:recommended',
 		'plugin:node/recommended',
-		'plugin:vue/recommended',
+		'plugin:vue',
 	],
 
   parserOptions: {
