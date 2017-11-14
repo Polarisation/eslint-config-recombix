@@ -32,6 +32,7 @@
   "author": "Josh Cole <josh@recombix.com> (https://www.recombix.com)",
   "peerDependencies": {
     "eslint": "latest",
+    "eslint-config-vue": "latest",
     "eslint-plugin-disable": "latest",
     "eslint-plugin-filenames": "latest",
     "eslint-plugin-json": "latest",
