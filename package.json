@@ -27,7 +27,7 @@
     "es2017",
     "es2018"
   ],
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "preferGlobal": "true",
   "author": "Josh Cole <josh@recombix.com> (https://www.recombix.com)",
   "peerDependencies": {
