@@ -28,6 +28,8 @@
     "eslint-plugin-json": "^1",
     "eslint-plugin-node": "^4",
     "eslint-plugin-promise": "^3"
+    "eslint-plugin-disable": "latest",
+    "eslint-plugin-vue": "latest"
   },
   "license": "MIT"
 }

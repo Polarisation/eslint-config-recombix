@@ -7,6 +7,7 @@ module.exports = {
 	extends: [
 		'eslint:recommended',
 		'plugin:node/recommended',
+		'plugin:vue/recommended',
 	],
 
   parserOptions: {
@@ -30,10 +31,12 @@ module.exports = {
   },
 
 	plugins: [
+		'disable',
 		'json',
     'filenames',
 		'node',
 		'promise',
+		'vue',
   ],
 
   rules: {
