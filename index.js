@@ -12,7 +12,7 @@ module.exports = {
 
   parserOptions: {
     ecmaVersion: 2017,
-    sourceType: 'script',
+    sourceType: 'script',  // Default to script for Node.
     ecmaFeatures: {
       impliedStrict: false,
       jsx: true,
