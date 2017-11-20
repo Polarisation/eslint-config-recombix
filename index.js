@@ -45,11 +45,10 @@ module.exports = {
 		/*
 		 * ESLint Core Rules
 		 */
-		'no-await-in-loop': 1,
-		'no-useless-concat': 2,
-		'prefer-template': 2,
-		'quotes': [2, 'backtick', {
-			'avoidEscape': true,
+		'array-bracket-spacing': ['always', {
+			'singleValue': true,
+			'objectsInArrays': false,
+			'arraysInArrays': false,
 		}],
     'arrow-body-style': [1, 'as-needed'],
     'arrow-parens': 0,
@@ -110,41 +109,47 @@ module.exports = {
       'capIsNewExceptions': ['Router'],
     }],
     'newline-after-var': 0,
-    'no-cond-assign': [2, 'except-parens'],
-    'no-confusing-arrow': [2, {
+		'no-await-in-loop': 1,
+		'no-cond-assign': [2, 'except-parens'],
+		'no-confusing-arrow': [2, {
 			'allowParens': true,
 		}],
-    'no-console': 1,
-    'no-continue': 0,
-    'no-else-return': 0,
-    'no-lonely-if': 2,
-    'no-mixed-requires': [1, {
-      'grouping': true,
-      'allowCall': true,
-    }],
-    'no-new-require': 2,
-    'no-param-reassign': [2, {
-      'props': false,
-    }],
-    'no-path-concat': 2,
-    'no-plusplus': 0,
-    'no-process-exit': 2,
-    'no-return-assign': 0,
-    'no-shadow': [2, {
-      'allow': ['err'],
-    }],
-    'no-sync': 2,
-    'no-tabs': 0,
-    'no-underscore-dangle': 0,
+		'no-console': 1,
+		'no-continue': 0,
+		'no-else-return': 0,
+		'no-lonely-if': 2,
+		'no-mixed-requires': [1, {
+			'grouping': true,
+			'allowCall': true,
+		}],
+		'no-new-require': 2,
+		'no-param-reassign': [2, {
+			'props': false,
+		}],
+		'no-path-concat': 2,
+		'no-plusplus': 0,
+		'no-process-exit': 2,
+		'no-return-assign': 0,
+		'no-shadow': [2, {
+			'allow': ['err'],
+		}],
+		'no-sync': 2,
+		'no-tabs': 0,
+		'no-underscore-dangle': 0,
     'no-unexpected-multiline': 2,
     'no-unused-expressions': [2, {
       'allowTernary': true,
     }],
+		'no-useless-concat': 2,
     'no-unused-vars': [2, {
       'vars': 'all',
       'args': 'after-used',
     }],
-    'no-with': 2,
+		'no-with': 2,
+		'prefer-template': 2,
+		'quotes': [2, 'backtick', {
+			'avoidEscape': true,
+		}],
     'object-curly-spacing': [2, 'always'],
     'one-var': [2, 'never'],
     'padded-blocks': 0,
@@ -181,16 +186,16 @@ module.exports = {
 		 * eslint-plugin-promise
 		 */
 		 'promise/always-return': 0,
-		 'promise/no-return-wrap': 1,
-		 'promise/param-names': 2,
+		 'promise/avoid-new': 0,
 		 'promise/catch-or-return': 2,
+		 'promise/no-callback-in-promise': 1,
 		 'promise/no-native': 0,
 		 'promise/no-nesting': 2,
 		 'promise/no-promise-in-callback': 1,
-		 'promise/no-callback-in-promise': 1,
-		 'promise/avoid-new': 0,
-		 'promise/prefer-await-to-then': 0,  // Will be enabled once Node.js 8.0 is released.
-		 'promise/prefer-await-to-callbacks': 0,  // Will be enabled once Node.js 8.0 is released.
+		 'promise/no-return-wrap': 1,
+		 'promise/param-names': 2,
+		 'promise/prefer-await-to-callbacks': 1,
+		 'promise/prefer-await-to-then': 1,
 
   }
 
