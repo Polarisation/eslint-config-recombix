@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-recombix",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "An awesome ESLint configuration for writing solid, quality code in Node.js and the browser.",
   "keywords": [
     "eslint",
