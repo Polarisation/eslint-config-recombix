@@ -1,5 +1,5 @@
 /*
- * ESLint config used by Settled.co.uk. Based on AirBnB's implementation.
+ * ESLint config used by Recombix.
  */
 
 module.exports = {
