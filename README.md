@@ -27,6 +27,6 @@ Add the following development dependencies into your project's package.json:
 You should also set the Node version you plan to use for your project, for example:
 ```javascript
 "engines": {
-	"node" : ">=7.5 < 8.0"  // Example!
+	"node" : ">=7.5 < 8.0"  // <-- Example!
 }
 ```
