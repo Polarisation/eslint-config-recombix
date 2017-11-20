@@ -45,7 +45,7 @@ module.exports = {
 		/*
 		 * ESLint Core Rules
 		 */
-		'array-bracket-spacing': ['always', {
+		'array-bracket-spacing': [2, 'always', {
 			'singleValue': true,
 			'objectsInArrays': false,
 			'arraysInArrays': false,
