@@ -45,7 +45,7 @@ module.exports = {
 		/*
 		 * ESLint Core Rules
 		 */
-		'array-bracket-spacing': [2, 'always', {
+		'array-bracket-spacing': [1, 'always', {
 			'singleValue': true,
 			'objectsInArrays': false,
 			'arraysInArrays': false,
@@ -71,7 +71,7 @@ module.exports = {
     'guard-for-in': 2,
     'handle-callback-err': [2, '^err'],
     'id-length': [1, {
-      'min': 3,
+      'min': 2,
       'max': 40,
     }],
     'indent': ['error', 'tab', {
@@ -150,7 +150,7 @@ module.exports = {
 		'quotes': [2, 'backtick', {
 			'avoidEscape': true,
 		}],
-    'object-curly-spacing': [2, 'always'],
+    'object-curly-spacing': [1, 'always'],
     'one-var': [2, 'never'],
     'padded-blocks': 0,
     'prefer-arrow-callback': 1,
