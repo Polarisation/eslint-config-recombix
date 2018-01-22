@@ -64,7 +64,7 @@ module.exports = {
       'exports': 'always-multiline',
       'functions': 'never',
     }],
-    'consistent-return': 0,
+    'consistent-return': 2,
     'curly': [2, 'all'],
     'func-names': 0,
     'global-require': 1,
