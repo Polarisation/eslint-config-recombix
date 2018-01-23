@@ -173,6 +173,7 @@ module.exports = {
     }],
     'spaced-comment': 1,
     'strict': [2, 'global'],
+		'valid-jsdoc': 2,
     'yoda': [2, 'never'],
 
 		/*
