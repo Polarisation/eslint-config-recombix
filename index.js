@@ -101,8 +101,12 @@ module.exports = {
       'tabWidth': 2,
       'ignoreTrailingComments': true,
     }],
+		'max-lines': [2, 300],
     'max-nested-callbacks': [2, 5],
     'max-params': [2, 5],
+		'max-statements': [2, {
+			'max': 20,
+		}],
     'new-cap': [2, {
       'newIsCap': true,
       'capIsNew': true,
