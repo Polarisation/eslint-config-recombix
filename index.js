@@ -156,6 +156,7 @@ module.exports = {
 		}],
     'object-curly-spacing': [1, 'always'],
     'one-var': [2, 'never'],
+    'operator-linebreak': [2, 'before'],
     'padded-blocks': 0,
     'prefer-arrow-callback': 1,
     'prefer-const': 2,
